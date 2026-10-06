@@ -1,0 +1,11 @@
+{
+	"name": "BifrostTest",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"Bifrost": {
+				"$path": "src"
+			}
+		}
+	}
+}
