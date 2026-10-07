@@ -8,7 +8,7 @@ After publishing the package:
 
 ```toml
 [dependencies]
-Bifrost = "ncxyzero/bifrost@0.0.1"
+Bifrost = "ncxyzero/bifrost@0.0.2"
 ```
 
 ## Bridges

@@ -12,6 +12,7 @@ local Bifrost = {}
 export type Connection = {
 	Connected: boolean,
 	Disconnect: (self: Connection) -> (),
+	Destroy: (self: Connection) -> (),
 }
 
 export type PlayerGroup = { kind: string, players: { Player }? }
@@ -272,6 +273,8 @@ local function addListener(bridge, callback, once)
 			listeners[listenerId] = nil
 		end
 	end
+
+	connection.Destroy = connection.Disconnect
 	listeners[listenerId] = { callback = callback, once = once, connection = connection }
 	return connection
 end

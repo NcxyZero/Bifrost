@@ -1,6 +1,6 @@
 [package]
 name = "ncxyzero/bifrost"
-version = "0.0.1"
+version = "0.0.2"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 description = "Bifrost is a compact networking library for Roblox"
